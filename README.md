@@ -5,6 +5,8 @@
 
 <!-- badges: start -->
 
+[![Travis build
+status](https://travis-ci.com/cemreyilmaz/tester.svg?branch=master)](https://travis-ci.com/cemreyilmaz/tester)
 <!-- badges: end -->
 
 The goal of tester is to test how to create a package in R. These

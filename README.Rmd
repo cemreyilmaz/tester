@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # tester
 
 <!-- badges: start -->
+[![Travis build status](https://travis-ci.com/cemreyilmaz/tester.svg?branch=master)](https://travis-ci.com/cemreyilmaz/tester)
 <!-- badges: end -->
 
 The goal of tester is to test how to create a package in R. These functions are for educational purpose and for use only with Cemre Yilmaz and no other people.
