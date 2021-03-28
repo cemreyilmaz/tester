@@ -17,6 +17,7 @@ This function creates the file name as string with a format of .csv.bz2. The
 file name is defined as e.g. accident_2020.csv.bz2.
 }
 \examples{
+\dontrun{
 make_filename(2013)
-
+}
 }

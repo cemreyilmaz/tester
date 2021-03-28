@@ -18,6 +18,7 @@ This function selects the monthly data for the selected years with
 summarize data and spread the year.
 }
 \examples{
+\dontrun{
 fars_summarize_years(2013:2015)
-
+}
 }

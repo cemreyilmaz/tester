@@ -23,6 +23,7 @@ If the file for the given year does not exist, it turns
 into a warning.
 }
 \examples{
+\dontrun{
 tbl_data <- fars_read('accident_2013.csv.bz2')
-
+}
 }

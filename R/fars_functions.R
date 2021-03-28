@@ -18,8 +18,9 @@
 #' given filename.
 #'
 #' @examples
+#' \dontrun{
 #' tbl_data <- fars_read('accident_2013.csv.bz2')
-#'
+#'}
 #' @export
 fars_read <- function(filename) {
   if(!file.exists(filename))
@@ -39,8 +40,9 @@ fars_read <- function(filename) {
 #' @return A character string of file name
 #'
 #' @examples
+#' \dontrun{
 #' make_filename(2013)
-#'
+#'}
 #' @export
 make_filename <- function(year) {
   year <- as.integer(year)
@@ -64,8 +66,9 @@ make_filename <- function(year) {
 #' @return The table frame including months for the given years from the data
 #'
 #' @examples
+#' \dontrun{
 #' fars_read_years(2013:2015)
-#'
+#'}
 #' @export
 fars_read_years <- function(years) {
   lapply(years, function(year) {
@@ -93,8 +96,9 @@ fars_read_years <- function(years) {
 #' @return The summary of data of month for the given years
 #'
 #' @examples
+#' \dontrun{
 #' fars_summarize_years(2013:2015)
-#'
+#'}
 #' @export
 fars_summarize_years <- function(years) {
   dat_list <- fars_read_years(years)
@@ -121,8 +125,9 @@ fars_summarize_years <- function(years) {
 #' @return           The plot of the filtered data
 #'
 #' @examples
+#' \dontrun{
 #' fars_map_state(1,2013)
-#'
+#'}
 #' @export
 fars_map_state <- function(state.num, year) {
   filename <- make_filename(year)

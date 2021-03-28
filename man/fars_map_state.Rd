@@ -25,6 +25,7 @@ data on a plot.
 It runs into a warning if there is no data for the defined
 }
 \examples{
+\dontrun{
 fars_map_state(1,2013)
-
+}
 }

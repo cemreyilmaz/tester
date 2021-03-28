@@ -24,6 +24,7 @@ Also, it turns into a warning message if any error occurs. It means
 the given year is not valid.
 }
 \examples{
+\dontrun{
 fars_read_years(2013:2015)
-
+}
 }
